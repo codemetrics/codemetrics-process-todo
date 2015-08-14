@@ -1,7 +1,7 @@
 {
-  "name": "codemetrics-plugin-skeleton",
+  "name": "codemetrics-process-todo",
   "version": "1.0.0",
-  "description": "A empty skeleton to write a plugin for Codemetrics",
+  "description": "Detect how many TODO you have to do ",
   "main": "dist/index.js",
   "scripts": {
     "build": "babel src --out-dir dist",
