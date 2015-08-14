@@ -1,0 +1,17 @@
+{
+  "name": "codemetrics-plugin-skeleton",
+  "version": "1.0.0",
+  "description": "A empty skeleton to write a plugin for Codemetrics",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "babel src --out-dir dist",
+    "test": "babel-tape-runner tests/* | tap-spec"
+  },
+  "devDependencies": {
+    "babel": "^5.6.23",
+    "babel-tape-runner": "^1.2.0",
+    "object-assign": "^3.0.0",
+    "tap-spec": "^4.0.2",
+    "tape": "^4.1.0"
+  }
+}
