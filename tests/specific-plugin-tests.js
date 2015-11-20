@@ -1,8 +1,6 @@
-"use strict";
+const test = require("tape");
 
-var test = require("tape");
-
-var myPluginInstance = require("../src")();
+const myPluginInstance = require("../src")();
 
 var data = "";
 var inputFiles = [ { name: 'tests/samples/codefile.js',

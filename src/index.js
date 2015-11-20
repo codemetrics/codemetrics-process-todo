@@ -1,7 +1,3 @@
-"use strict";
-
-const Objectassign = require("object-assign");
-
 const defaultOptions = {
   todoFormat: ["TODO"],
   linesToShowBefore: 1,
@@ -11,7 +7,7 @@ const defaultOptions = {
 
 module.exports = function(options = {}) {
 
-  Objectassign(options, defaultOptions);
+  Object.assign(options, defaultOptions);
 
   return {
     run: function(input) {
